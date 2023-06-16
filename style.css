@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: bisque;
+}
+textarea {
+    color: white;
+    font: 400;
+}
+main{
+    width: auto;
+    margin:0 auto;
+    margin-top: 20px;
+}
+.searchBox {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.pokemonBox {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+.pokemonBox img {
+    width: 200px;
+}
+.pokemonBox p {
+    margin-top: 30px;
+}
+.pokemonBox .pokemonInfos{
+    padding: 20px;
+}
